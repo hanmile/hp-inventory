@@ -1,5 +1,5 @@
 var MongoClient = require('mongodb').MongoClient;
-var url = process.env.MONGOLAB_URI || 'mongodb://localhost:27017/books_inventory_db';
+var url = 'mongodb://localhost:27017/books_inventory_db';
 
 var collectionPromise = MongoClient.
 connect(url).
